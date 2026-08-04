@@ -40,11 +40,6 @@ Se utiliza el símbolo de **Decisión (Rombo)**.
 * Si la condición se cumple, el flujo toma un camino.
 * Si no se cumple, toma otro camino alternativo (ramas `if`, `else`).
 
-### C. Repetitiva (Bucles / Loops)
-Permite ejecutar un conjunto de instrucciones varias veces mientras se cumpla una condición.
-* **Mientras (While) / Para (For):** Utilizan un rombo para evaluar si el bucle debe continuar o detenerse, y una línea de flujo que regresa al inicio del proceso para repetir la acción.
-
----
 
 ## 3. Buenas Prácticas para su Elaboración
 
