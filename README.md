@@ -4,7 +4,7 @@
 [![Universidad](https://img.shields.io/badge/Nivel-Académico%20Universitario-blue.svg)]()
 [![Lenguaje](https://img.shields.io/badge/Lenguaje-Python%20%2F%20C%2B%2B-informational.svg)]()
 
-Bienvenido al repositorio oficial del **Módulo de Algoritmos**. Este espacio está diseñado para estudiantes universitarios que cursan la materia de Fundamentos de Programación, Estructuras de Datos y Algoritmia Avanzada. Aquí encontrarás la teoría, los códigos de ejemplo y las guías prácticas necesarias para dominar el pensamiento computacional.
+Bienvenido al repositorio oficial del **Módulo de Programación**. Este espacio está diseñado para estudiantes universitarios que cursan la materia de Fundamentos de Programación. Aquí encontrarás la teoría, los códigos de ejemplo y las guías prácticas necesarias para dominar el pensamiento computacional.
 
 ---
 
