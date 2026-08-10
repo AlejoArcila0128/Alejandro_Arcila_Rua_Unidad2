@@ -41,7 +41,7 @@ Inicio
 
  Print "Precio lapices" + "COP"  
 
-![Image4](./
+![Image4](./Imagenes/Diagrama_Lapices)
   
 ## Ejercicio #5
 
