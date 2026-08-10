@@ -13,11 +13,11 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 ![imagen2](./Imagenes/Diagrama_Ingresos.jpg)
 
 
-## Ejercicio #2
+## 🎂 Ejercicio #2
 
-Ejercicio de cumpleaños
+- Diagrama de flujo para verificar si una persona ya cumplio o no ha cumplido años segun el dia en el que se encuentre el año.  
 
-![Image1](./Imagenes/DIAGRAMA DE FLUJO ACT 2.drawio.png) 
+![Image1](./Imagenes/Diagrama_HBD.png)
 
 ## Ejercicio #3
 
