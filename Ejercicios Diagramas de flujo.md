@@ -4,11 +4,14 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 
 ---
 
-## Ejercicio #1 
+## 💵 Ejercicio #1 
 
 - Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
 
-![Image2](./Imágenes/DIAGRAMA DE FLUJO ACT 2.drawio.png)
+ 
+
+![imagen2](./Imagenes/Diagrama_Ingresos.jpg)
+
 
 ## Ejercicio #2
 
