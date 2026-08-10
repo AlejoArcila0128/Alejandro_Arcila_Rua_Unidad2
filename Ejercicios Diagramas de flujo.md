@@ -25,7 +25,7 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 
 ![Image3](./Imagenes/Diagrama_Acuario.png)
 
-## Ejercicio #4
+## ✏️ Ejercicio #4
 
 - Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
 
@@ -33,32 +33,36 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 
 Inicio
  Leer "Lapices"  
-  If lapices ≥ 1000  
+  Si lapices ≥ 1000  
    Precio lapices = lapices * 85  
 
-  If lapices < 1000  
+  Si no  
    Precio lapices = lapices * 90  
 
  Print "Precio lapices" + "COP"  
 
-![Image4](./Imagenes/Diagrama_Lapices)
+![Image4](./Imagenes/Diagrama_Lapices.png)
   
-## Ejercicio #5
+## 👕 Ejercicio #5
 
 - Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
 
   ### Pseudocodigo
   Inicio  
   Leer Valor compra  
-   If Valor compra > 250.000  
+   Si Valor_compra > 250.000  
     V_compra_f = Valor compra * 0,85  
-    V_descuento = Valor compra * 0,15  
+    V_descuento = Valor compra * 0,15   
 
-  Leer Valor compra ≤ 250.000  
+  Si no   
    V_compra_f2 = Valor compra * 0,92  
    V_descuento2 = Valor compra * 0,08  
 
   Print  
   V_compra_f, V_descuento, V_compra_f2, V_descuento2  
 
-![Image5](./
+![Image5](./Imagenes/Diagrama_ropa.drawio.png)
+
+## ✈️ Ejercicio #6
+
+
