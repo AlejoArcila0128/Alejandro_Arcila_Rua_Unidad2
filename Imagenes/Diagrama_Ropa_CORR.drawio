@@ -1,29 +1,27 @@
 <mxfile host="app.diagrams.net">
   <diagram name="D.F 1" id="pBCSGh50Ph2k-0CVa43t">
-    <mxGraphModel dx="1308" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="708" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZXrGwmPH6HQoInxs6lgm-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Inicio&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="120" x="354" as="geometry" />
         </mxCell>
-        <mxCell id="ZXrGwmPH6HQoInxs6lgm-11" edge="1" parent="1" source="ZXrGwmPH6HQoInxs6lgm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="FcKWGlAYIpBApK24XI_o-2">
+        <mxCell id="ZXrGwmPH6HQoInxs6lgm-11" edge="1" parent="1" source="ZXrGwmPH6HQoInxs6lgm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="414" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Owuik_vR2MyDNrWYHnyf-3" edge="1" parent="1" source="FcKWGlAYIpBApK24XI_o-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6WD-4KU3lj7UHGvPUBpQ-2">
+        <mxCell id="Owuik_vR2MyDNrWYHnyf-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6WD-4KU3lj7UHGvPUBpQ-2">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="190" as="sourcePoint" />
             <mxPoint x="414" y="220" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FcKWGlAYIpBApK24XI_o-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Valor_prenda_1, Valor_prenda_2, Valor_prenda_n" vertex="1">
-          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
         </mxCell>
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-15" edge="1" parent="1" source="6WD-4KU3lj7UHGvPUBpQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="6WD-4KU3lj7UHGvPUBpQ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor_compra = Valor_prenda_1 + .... Valor_prenda_n&lt;/div&gt;" vertex="1">
+        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-2" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;size=-1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor_compra = Valor_prenda_1 + .... Valor_prenda_n&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="166" x="331" y="230" as="geometry" />
         </mxCell>
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-11" edge="1" parent="1" source="6WD-4KU3lj7UHGvPUBpQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6WD-4KU3lj7UHGvPUBpQ-8">
@@ -35,7 +33,7 @@
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Valor_compra &amp;gt; 250000&lt;/div&gt;" vertex="1">
           <mxGeometry height="80" width="146" x="341" y="330" as="geometry" />
         </mxCell>
-        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="V_compra_f = Valor_compra * 0,85&lt;br&gt;V_descuento = Valor_compra * 0,15" vertex="1">
+        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-6" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;size=-11;" value="V_compra_f = Valor_compra * 0,85&lt;br&gt;V_descuento = Valor_compra * 0,15" vertex="1">
           <mxGeometry height="90" width="200" x="131" y="410" as="geometry" />
         </mxCell>
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-17" edge="1" parent="1" source="6WD-4KU3lj7UHGvPUBpQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="6WD-4KU3lj7UHGvPUBpQ-16">
@@ -44,7 +42,7 @@
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-7" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.16969672309027778;fillColor=#b1ddf0;strokeColor=#10739e;" value="Print&lt;div&gt;&quot;V_compra_f&quot;&lt;br&gt;&quot;V_descuento&quot;&lt;/div&gt;" vertex="1">
           <mxGeometry height="90" width="146" x="341" y="570" as="geometry" />
         </mxCell>
-        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="V_compra_f = Valor_compra * 0,92&lt;br&gt;V_descuento = Valor_compra * 0,08" vertex="1">
+        <mxCell id="6WD-4KU3lj7UHGvPUBpQ-8" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;size=-57;" value="V_compra_f = Valor_compra * 0,92&lt;br&gt;V_descuento = Valor_compra * 0,08" vertex="1">
           <mxGeometry height="90" width="200" x="497" y="410" as="geometry" />
         </mxCell>
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-9" edge="1" parent="1" source="6WD-4KU3lj7UHGvPUBpQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="6WD-4KU3lj7UHGvPUBpQ-7">
@@ -61,6 +59,9 @@
         </mxCell>
         <mxCell id="6WD-4KU3lj7UHGvPUBpQ-16" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="&lt;div&gt;Fin&lt;/div&gt;" vertex="1">
           <mxGeometry height="50" width="90" x="369" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="FovtiFiLFFoiPjlKPwOS-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;shapeInside=1;fixedSize=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Valor_prenda_1, Valor_prenda_2, Valor_prenda_n" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
