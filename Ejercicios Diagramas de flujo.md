@@ -7,12 +7,36 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 ## 💵 Ejercicio #1 
 
 - Construye un algoritmo que, al recibir como datos el ID del empleado y los seis primeros sueldos del año, calcule el ingreso total semestral y el promedio mensual, e imprima el ID del empleado, el ingreso total y el promedio mensual.
-
+<div align="center">
  
+### *Tabla de datos (entradas & salidas)*
 
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---:|:---:|:---:|:---:|
+| ID | Identificación | Int | Entrada |
+| Sn | Salario mensual | Int | Entrada  |
+| IT | Ingreso total | Int | Salida |
+| PM | Promedio mensual | Int | Salida |
+
+</div>  
+
+ ### *Pseudocodigo*
+```
+Inicio
+Leer S1, S2, S3, S4, S5, S6, ID
+Ingreso total = S1 + S2 + S3 + S4 + S5 + S6
+Promedio mensual = Ingreso total / 6
+Mostrar "ID"
+``` 
+  
+<div align="center">
+
+### *Diagrama de flujo*
 ![imagen2](./Imagenes/Diagrama_Ingresos.jpg)
 
+</div>  
 
+---
 ## 🎂 Ejercicio #2
 
 - Diagrama de flujo para verificar si una persona ya cumplio o no ha cumplido años segun el dia en el que se encuentre el año.  
