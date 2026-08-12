@@ -41,6 +41,30 @@ Mostrar "ID"
 
 - Diagrama de flujo para verificar si una persona ya cumplio o no ha cumplido años segun el dia en el que se encuentre el año.  
 
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| *Nombre* | *Definición* | *Tipo* | *Entrada/Salida* |
+|:---|:---|:---:|:---:|
+| Edad | Edad de la persona | Int | Salida |
+| Año_A | Año actual | Int | Entrada  |
+| Mes_A | Mes actual | Int | Entrada |
+| Dia_A | Dia actual | Int | Entrada |
+| Año_N | Año nacimiento | Int | Entrada |
+| Mes_N | Mes nacimiento | Int | Entrada  |
+| Dia_N | Dia nacimiento | Int | Entrada |
+
+</div>  
+
+ ### *Pseudocodigo*
+```
+Inicio
+Leer Año_A, Mes_A , Dia_A, Año_N, Mes_N, Dia_N
+Edad = Año_A - Año_N
+Si Edad
+``` 
+  
 ![Image1](./Imagenes/Diagrama_HBD.png)
 
 ## 🐟 Ejercicio #3
