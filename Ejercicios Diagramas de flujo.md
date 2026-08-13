@@ -113,7 +113,7 @@ Si el usuario desea la información en galones
 Fin
 ```
 
-![Image3](./Imagenes/Diagrama_Acuario.png)
+![Image3](./Imagenes/Diagrama_.png)
 
 ## ✏️ Ejercicio #4
 
@@ -136,8 +136,10 @@ Inicio
 ## 👕 Ejercicio #5
 
 - Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
-```
+
   ### Pseudocodigo
+  
+```
   Inicio  
   Leer Valor compra  
    Si Valor_compra > 250.000  
@@ -151,7 +153,7 @@ Inicio
   Print  
   V_compra_f, V_descuento, V_compra_f2, V_descuento2  
 ```
-![Image5](./Imagenes/Diagrama_ropa.drawio.png)
+![Image5](./Imagenes/Diagrama_E3.png)
 
 ## ✈️ Ejercicio #6
 
