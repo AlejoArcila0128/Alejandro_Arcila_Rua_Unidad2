@@ -187,8 +187,8 @@ Fin
    V_compra_f2 = Valor compra * 0,92  
    V_descuento2 = Valor compra * 0,08  
 
-  Print  
-  V_compra_f, V_descuento, V_compra_f2, V_descuento2  
+Print V_compra_f, V_descuento, V_compra_f2, V_descuento2
+Fin
 ```
 
 <div align="center">
@@ -201,4 +201,21 @@ Fin
 
 ## ✈️ Ejercicio #6
 
+- El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 100 alumnos o más, el costo por cada alumno es de $65.00; de 50 a 99 alumnos, el costo es de $70.00, de 30 a 49, de $95.00, y si son menos de 30, el costo de la renta del autobús es de $4000.00, sin importar el número de alumnos.
 
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---:|:---:|:---:|:---:|
+| A | Cantidad de Alumnos | Int | Entrada |
+| P | Precio | Float | Salida |
+| PT | Precio total | Float | Salida |
+
+</div>
+
+```
+  Inicio  
+   
+```
