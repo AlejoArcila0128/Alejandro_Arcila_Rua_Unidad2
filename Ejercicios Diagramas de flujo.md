@@ -113,11 +113,26 @@ Si el usuario desea la información en galones
 Fin
 ```
 
-![Image3](./Imagenes/Diagrama_.png)
+<div align="center">
+
+![Image3](./Imagenes/Diagrama_E1.png)
+
+</div>
 
 ## ✏️ Ejercicio #4
 
 - Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
+
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---|:---:|:---:|:---:|
+| Lápices  | Cantidad de lapices | Int | Entrada |
+| Precio Lápiz | Valor a pagar | Int | Salida
+
+</div>
 
 ### Pseudocodigo
 ```
@@ -129,7 +144,8 @@ Inicio
   Si no  
    Precio lapices = lapices * 90  
 
- Print "Precio lapices" + "COP"  
+ Print "Precio lapices" + "COP"
+Fin
 ```
 ![Image4](./Imagenes/Diagrama_Lapices.png)
 
