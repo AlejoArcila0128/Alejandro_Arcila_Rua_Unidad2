@@ -27,6 +27,7 @@ Leer S1, S2, S3, S4, S5, S6, ID
 Ingreso total = S1 + S2 + S3 + S4 + S5 + S6
 Promedio mensual = Ingreso total / 6
 Mostrar "ID"
+Fin
 ``` 
   
 <div align="center">
@@ -62,14 +63,55 @@ Mostrar "ID"
 Inicio
 Leer Año_A, Mes_A , Dia_A, Año_N, Mes_N, Dia_N
 Edad = Año_A - Año_N
-Si Edad
+Si Mes_N < Mes_A
+ Print Edad, HBD
+
+Si Dia_N ≤ Dia_A
+ Print Edad, HBD
+
+Fin
 ``` 
+<div align="center">
   
 ![Image1](./Imagenes/Diagrama_HBD.png)
+
+</div>  
+
+---
 
 ## 🐟 Ejercicio #3
 
 - Un acuario necesita determinar cuántos litros o galones (eso lo decide el usuario) de agua caben en un acuario, pero solo dispone de una cinta métrica (en centímetros). Diseña un algoritmo para solucionar el problema.
+
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---|:---:|:---:|:---:|
+| Forma_TNQ  | Forma del tanque | Int | Entrada |
+| Largo | Largo del tanque | Int | Entrada  |
+| Ancho | Ancho del tanque | Int | Entrada |
+| Alto | Alto del tanque | Int | Entrada |
+| Vol_Litros | Volumen del tanque en litros | Int | Salida |
+| Vol_Gal | Volumen del tanque en galones | Int | Salida |
+
+</div>
+
+```
+Inicio
+Leer Forma_TNQ, Largo, Ancho, Alto
+Si Forma_TNQ = Rectangulo
+ Vol_cm^3 = Largo * Ancho * Alto
+ Vol_Litros = Vol_cm^3 / 1000
+ Print Vol_Litros
+
+Si el usuario desea la información en galones
+ Vol_Galones = Vol_Litros / 3,785
+ Print "Vol_litros
+
+Fin
+```
 
 ![Image3](./Imagenes/Diagrama_Acuario.png)
 
