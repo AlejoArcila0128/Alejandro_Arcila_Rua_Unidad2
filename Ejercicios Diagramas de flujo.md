@@ -219,3 +219,9 @@ Fin
   Inicio  
    
 ```
+
+<div align="center">
+ 
+![Ejercicio 4](./Imagenes/Diagrama_E4.png)
+
+</div>
