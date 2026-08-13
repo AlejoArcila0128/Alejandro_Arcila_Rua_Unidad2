@@ -119,6 +119,8 @@ Fin
 
 </div>
 
+---
+
 ## ✏️ Ejercicio #4
 
 - Realice un algoritmo para determinar cuánto se debe pagar por equis cantidad de lápices considerando que si son 1000 o más el costo es de $85 cada uno; de lo contrario, el precio es de $90. Represéntelo con el pseudocódigo y el diagrama de flujo.
@@ -147,11 +149,30 @@ Inicio
  Print "Precio lapices" + "COP"
 Fin
 ```
-![Image4](./Imagenes/Diagrama_Lapices.png)
+<div align="center">
+
+![Image4](./Imagenes/Diagrama_E2.png)
+
+</div>
+
+---
 
 ## 👕 Ejercicio #5
 
 - Un almacén de ropa tiene una promoción: por compras superiores a $250 000 se les aplicará un descuento de 15%, de caso contrario, sólo se aplicará un 8% de descuento. Realice un algoritmo para determinar el precio final que debe pagar una persona por comprar en dicho almacén y de cuánto es el descuento que obtendrá. Represéntelo mediante el pseudocódigo y el diagrama de flujo.
+
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---|:---:|:---:|:---:|
+| Valor_prenda_n  | Precio de prenda | Float | Entrada |
+| Valor_compra_f  | Valor total pagado | Float | Salida |
+| Valor_descuento_f  | Valor del descuento aplicado | Float | Salida |
+
+</div>
+
 
   ### Pseudocodigo
   
@@ -169,7 +190,14 @@ Fin
   Print  
   V_compra_f, V_descuento, V_compra_f2, V_descuento2  
 ```
+
+<div align="center">
+ 
 ![Image5](./Imagenes/Diagrama_E3.png)
+
+</div>
+
+---
 
 ## ✈️ Ejercicio #6
 
