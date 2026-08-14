@@ -20,7 +20,7 @@ Bienvenido a este repositorio de ejercicios de lógica de programación. Aquí e
 
 </div>  
 
- ### *Pseudocodigo*
+ ### *Pseudocódigo*
 ```
 Inicio
 Leer S1, S2, S3, S4, S5, S6, ID
@@ -58,7 +58,7 @@ Fin
 
 </div>  
 
- ### *Pseudocodigo*
+ ### *Pseudocódigo*
 ```
 Inicio
 Leer Año_A, Mes_A , Dia_A, Año_N, Mes_N, Dia_N
@@ -138,7 +138,7 @@ Fin
 
 </div>
 
-### Pseudocodigo
+### *Pseudocódigo*
 ```
 Inicio
  Leer "Lapices"  
@@ -177,7 +177,7 @@ Fin
 </div>
 
 
-  ### Pseudocodigo
+  ### *Pseudocódigo*
   
 ```
   Inicio  
@@ -219,8 +219,45 @@ Fin
 
 </div>
 
+
+  ### Pseudocódigo
 ```
-  Inicio  
+  Inicio
+    Definir num_alumnos Como Entero
+    Definir costo_por_alumno, costo_total Como Real
+    
+    Escribir "Ingrese el número de alumnos que realizarán el viaje: "
+    Leer num_alumnos
+    
+    Si num_alumnos >= 100 Entonces
+        costo_por_alumno <- 65.00
+        costo_total <- num_alumnos * costo_por_alumno
+        
+    Sino Si num_alumnos >= 50 Y num_alumnos <= 99 Entonces
+        costo_por_alumno <- 70.00
+        costo_total <- num_alumnos * costo_por_alumno
+        
+    Sino Si num_alumnos >= 30 Y num_alumnos <= 49 Entonces
+        costo_por_alumno <- 95.00
+        costo_total <- num_alumnos * costo_por_alumno
+        
+    Sino 
+        // Caso: menos de 30 alumnos
+        costo_total <- 4000.00
+        
+        // Evitamos división por cero en caso de que se ingrese 0 alumnos
+        Si num_alumnos > 0 Entonces
+            costo_por_alumno <- costo_total / num_alumnos
+        Sino
+            costo_por_alumno <- 0
+        Fin Si
+        
+    Fin Si
+
+    Escribir "El pago total a la compañía de viajes es: $", costo_total
+    Escribir "El costo que debe pagar cada alumno es: $", costo_por_alumno
+    
+Fin
    
 ```
 
@@ -257,6 +294,9 @@ Durante una inspección de rutina, se mide la temperatura de un motor de turbina
 
 </div>
 
+
+  ### *Pseudocódigo*
+
 ``` 
     Definir T Como Real
     Definir Valor_Critico como real
@@ -282,8 +322,53 @@ Fin
 
 </div>
 
-## Ejercicio bucle
+---  
 
+## Ejercicio complejo (condicional & bucle)
 
-## Ejercicio complejo (condicional & bucle
+**Monitoreo de aproximación a la pista**
+
+Durante la aproximación, un sistema recibe datos de altitud y velocidad cada 5 segundos hasta el aterrizaje. Si la velocidad excede el valor máximo seguro o la altitud no desciende adecuadamente, debe indicarse un mensaje de corrección de maniobra. Mostrar un resumen final de todos los avisos emitidos.
+
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---:|:---:|:---:|:---:|
+| A | Altitud | Int | Entrada |
+| V | Velocidad | Int | Entrada |
+| Aviso | Corregir maniobra | Text | Salida|
+
+</div>
+
+  ### *Pseudocódigo*
+
+```
+Inicio
+Cont = 0
+Leer altitud, velocidad
+Mientras altitud > 0
+ Leer altitud
+ Si Altitud > Valor_Max
+  Mostrar "Corregir maniobra"
+  Cont = cont + 1
+ Fin si
+ Leer velocidad
+ Si velocidad > Valor_Max
+  Mostrar "Corregir maniobra"
+  Cont = cont + 1
+ Fin si
+fin mientras
+Mostrar contador
+Fin
+```
+
+<div align="center">
+
+### *Diagrama de flujo*
+ 
+![Ejercicio_2_Condicional](./Imagenes/Diagrama_EA2.png)
+
+</div>
 
