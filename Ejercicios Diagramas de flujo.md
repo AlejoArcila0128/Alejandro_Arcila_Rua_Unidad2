@@ -72,7 +72,8 @@ Si Dia_N ≤ Dia_A
 Fin
 ``` 
 <div align="center">
-  
+
+### *Diagrama de flujo*  
 ![Image1](./Imagenes/Diagrama_HBD.png)
 
 </div>  
@@ -115,6 +116,7 @@ Fin
 
 <div align="center">
 
+### *Diagrama de flujo*
 ![Image3](./Imagenes/Diagrama_E1.png)
 
 </div>
@@ -151,6 +153,7 @@ Fin
 ```
 <div align="center">
 
+### *Diagrama de flujo*
 ![Image4](./Imagenes/Diagrama_E2.png)
 
 </div>
@@ -192,7 +195,8 @@ Fin
 ```
 
 <div align="center">
- 
+
+### *Diagrama de flujo* 
 ![Image5](./Imagenes/Diagrama_E3.png)
 
 </div>
@@ -221,7 +225,8 @@ Fin
 ```
 
 <div align="center">
- 
+
+### *Diagrama de flujo* 
 ![Ejercicio 4](./Imagenes/Diagrama_E4.png)
 
 </div>
@@ -271,7 +276,7 @@ Fin
 ```
 <div align="center">
 
- ### Diagrama de Flujo
+### *Diagrama de flujo*
  
 ![Ejercicio_1_Condicional](./Imagenes/Diagrama_EA1.png)
 
