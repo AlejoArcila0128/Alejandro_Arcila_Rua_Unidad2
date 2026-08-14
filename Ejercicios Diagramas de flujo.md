@@ -225,3 +225,60 @@ Fin
 ![Ejercicio 4](./Imagenes/Diagrama_E4.png)
 
 </div>
+
+---
+
+# Taller de Algoritmos: Ejercicios Prácticos
+
+Este documento contiene una recopilación estructurada de los ejercicios desarrollados durante el taller de algoritmos. El objetivo principal de esta colección es aplicar el pensamiento computacional para la resolución de problemas, documentando paso a paso cada solución mediante el uso de pseudocódigo y diagramas de flujo. 
+
+A continuación, se presenta la lista de ejercicios abordados:
+
+## Ejercicio condicional
+
+🔥**Control de temperatura del motor**🔥
+    
+Durante una inspección de rutina, se mide la temperatura de un motor de turbina. Si la temperatura es mayor a un valor crítico, se debe indicar "Peligro: sobrecalentamiento". Si está dentro del rango seguro, indicar "Operación normal". Si es demasiado baja, indicar "Motor frío – Calentar antes de operar".
+
+<div align="center">
+ 
+### *Tabla de datos (entradas & salidas)*
+
+| Nombre | Definición | Tipo | Entrada/Salida |
+|:---:|:---:|:---:|:---:|
+| T | Temperatura motor | Float | Entrada |
+| Valor_critico | Valor definido por usuario | Float | Entrada|
+| Alerta | Mensaje emitido segun la alerta | Text | salida |
+
+</div>
+
+``` 
+    Definir T Como Real
+    Definir Valor_Critico como real
+
+    Escribir "Ingrese la temperatura actual del motor (en grados):"
+    Leer T
+    
+    Si T > Valor_critico Entonces
+        Escribir "Peligro: sobrecalentamiento"
+    Sino Si T >= Valor_critico Entonces
+        Escribir "Operación normal"
+    Sino
+        Escribir "Motor frío – Calentar antes de operar"
+    Fin Si
+    
+Fin 
+```
+<div align="center">
+
+ ### Diagrama de Flujo
+ 
+![Ejercicio_1_Condicional](./Imagenes/Diagrama_EA1.png)
+
+</div>
+
+## Ejercicio bucle
+
+
+## Ejercicio complejo (condicional & bucle
+
